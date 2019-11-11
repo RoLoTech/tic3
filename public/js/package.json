@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "event-emitter": "^0.3.5",
+    "path-webpack": "0.0.3",
     "tesseract.js": "^1.0.19",
     "url-polyfill": "^1.1.7"
   }
