@@ -10,15 +10,15 @@ let timer;
 function convertir() {
     let i = 0;
     window.clearTimeout(timer);
-    recurcion(texto.split(" "), i);
+    recursion(texto.split(" "), i);
 }
 
-function recurcion(textoVec, i) {
+function recursion(textoVec, i) {
     if (i < textoVec.length) {
         document.getElementById("myParagraph").innerHTML = textoVec[i];
         i++;
         timer = window.setTimeout(function () {
-            recurcion(textoVec, i);
-        }, 1000);
+            recursion(textoVec, i);
+        }, 125);
     }
 }
