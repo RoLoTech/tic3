@@ -11,6 +11,6 @@ function convertir() {
     if (i < j) {
         document.getElementById("myParagraph").innerHTML = textoVec[i];
         i++;
-        window.setTimeout(convertir, 1000);
+        window.setTimeout(convertir, 125);
     }
 }
