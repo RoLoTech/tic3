@@ -41,7 +41,7 @@ iframe, embed, object {
   margin-bottom: 20px;
 }
 
-#myParagraph{
+#myParagraph, #ejemplo{
 
     background: #f7f7f7;
     font-size: 250%;

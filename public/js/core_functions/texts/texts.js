@@ -12,6 +12,33 @@ const reviews = {
     other2: "",
     other3: ""
 };
-export {tales};
-export {articles};
-export {reviews};
+let cuento;
+
+function ejemploCuentos(numero) {
+    window.clearTimeout(cuento);
+    let p = 0;
+    let textoVec;
+    switch (numero) {
+        case 1:
+            textoVec = tales.threeLittlePigs.split(" ");
+            break;
+        case 2:
+            textoVec = tales.hanselAndGretel.split(" ");
+            break;
+        case 3:
+            textoVec = tales.snowWhite.split(" ");
+            break;
+    }
+
+    ejemploRecursion(textoVec,p);
+}
+
+function ejemploRecursion(textoVec, p) {
+    if (p < textoVec.length) {
+        document.getElementById("ejemplo").innerHTML = textoVec[p];
+        p++;
+        cuento = window.setTimeout(function () {
+            ejemploRecursion(textoVec, p);
+        }, 1000);
+    }
+}

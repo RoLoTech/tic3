@@ -260,7 +260,7 @@
             <div class="span12">
                 <div class="section-intro">
                     <p>
-                        Se muestran distintos formatos soportados para varios tipos de documentos.
+                        Se muestran distintos ejemplos de textos para leer más rápido.
                     </p>
                 </div>
             </div>
@@ -273,6 +273,13 @@
                     <li class="photo"><a href="#" class="btn btn-color">Cuentos infantiles</a></li>
                     <li class="ilustrator"><a href="#" class="btn btn-color">Artículos</a></li>
                 </ul>
+                <div class="container" style="float: left">
+                    <div class="row">
+                        <div style="border-radius: 20px">
+                            <p id="ejemplo">RESULTADO DEL EJEMPLO</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <ul class="portfolio-area">
                         <li class="portfolio-item2" data-id="id-0" data-type="web">
@@ -350,9 +357,9 @@
                         </li>
                         <li class="portfolio-item2" data-id="id-0" data-type="photo">
                             <div class="thumb-wrapp">
-                                <img src="public/img/portfolio/little/img7.jpg" class="folio-image" alt="">
+                                <img src="public/img/portfolio/little/img7.jpg" class="folio-image" onclick="ejemploCuentos(1)">
                                 <div class="folio-caption">
-                                    <h5>Mapa de ideas</h5>
+                                    <h5>Los 3 chanchitos</h5>
                                     <span class="folio-link">
 									<a href="public/img/portfolio/big/img7b.jpg" data-pretty="prettyPhoto" title="zoom">
 									<i class="icon-rounded  icon-32 icon-zoom-in"></i></a>
@@ -362,9 +369,9 @@
                         </li>
                         <li class="portfolio-item2" data-id="id-0" data-type="photo">
                             <div class="thumb-wrapp">
-                                <img src="public/img/portfolio/little/img8.jpg" class="folio-image" alt="">
+                                <img src="public/img/portfolio/little/img8.jpg" class="folio-image" onclick="ejemploCuentos(2)">
                                 <div class="folio-caption">
-                                    <h5>Reporte de errores</h5>
+                                    <h5>Hansel y Gretel</h5>
                                     <span class="folio-link">
 									<a href="public/img/portfolio/big/img8b.jpg" data-pretty="prettyPhoto" title="zoom">
 									<i class="icon-rounded  icon-32 icon-zoom-in"></i></a>
@@ -386,9 +393,9 @@
                         </li>
                         <li class="portfolio-item2" data-id="id-0" data-type="photo">
                             <div class="thumb-wrapp">
-                                <img src="public/img/portfolio/little/img10.jpg" class="folio-image" alt="">
+                                <img src="public/img/portfolio/little/img10.jpg" class="folio-image" onclick="ejemploCuentos(3)">
                                 <div class="folio-caption">
-                                    <h5>Presentaciones</h5>
+                                    <h5>Snow White</h5>
                                     <span class="folio-link">
 									<a href="public/img/portfolio/big/img10b.jpg" data-pretty="prettyPhoto"
                                        title="zoom">
@@ -501,17 +508,16 @@
     <img class="next" src="public/img/bt-next.png" alt="Next">
     <div class="container">
         <div class="row">
-            <div style="border-radius: 20px" >
-            <p id="myParagraph">
-                NDEAHHH
-
-            </p>
+            <div style="border-radius: 20px">
+                <p id="myParagraph">
+                    NDEAHHH
+                </p>
             </div>
 
         </div>
     </div>
 </div>
-<section id="Archivo" class="section">>
+<section id="Archivo" class="section">
 
 
 </section>
@@ -643,6 +649,8 @@
 
 <script src="public/js/cargaDescarga.js"></script>
 <script src="public/js/core_functions/prueba2.js"></script>
+<script src="public/js/core_functions/texts/texts.js"></script>
+
 <!-- Javascript Library Files -->
 <!-- Using a free CDN -->
 <script src='https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'></script>
@@ -682,7 +690,7 @@
 <script src="public/js/custom.js"></script>
 <script src="public/js/pdf_to_image/pdf.worker.js"></script>
 <script src="public/js/pdf_to_image/pdf.js "></script>
- <script src="public/js/pdf_to_image/pdf_to_image.js"></script>
+<script src="public/js/pdf_to_image/pdf_to_image.js"></script>
 <!-- <script src="public/js/core_functions/core_functions.js"></script>-->
 <!--<script src="public/js/epub/runner.js"></script>-->
 
