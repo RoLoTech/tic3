@@ -22,3 +22,8 @@ function recursion(textoVec, i) {
         }, 300);
     }
 }
+
+function detener() {
+    window.clearTimeout(timer);
+    document.getElementById("myParagraph").innerHTML = "Esperando nuevo archivo";
+}
