@@ -97,46 +97,62 @@ jQuery(document).ready(function ($) {
         var datos =
             {
                 name: $("#name").val(),
-                subject: $(#subject).val(),
+                subject: $("#subject").val(),
                 email: $("#email").val(),
                 message: $("#message").val()
             };
-      $.ajax({
-        type: "POST",
-      url: "https://rolotech.github.io/tic3/",
-          data: {
-          key: '38ee0f9ff131c03bb1f1ba6ce3635af-us5',
-          message: {
-            from_email: datos.email,
-            to:
-                {
-            email: 'agossweieler@correo.um.edu.uy',
-            name: 'me',
-            type: 'to'
-            },
-            autotext: true,
-            subject: datos.subject,
-            html: datos.message
-            }
-          }
-    });
-            // success: function(msg) {
-            //   // alert(msg);
-            //   if (msg == 'OK') {
-            //     $("#sendmessage").addClass("show");
-            //     $("#errormessage").removeClass("show");
-            //     $('.contactForm').find("input, textarea").val("");
-            //     // const subject = document.getElementById('subject').innerText;
-            //     // const body = document.getElementById('message').innerText;
-            //     // window.open('mailto:agossweiler@correo.um.edu.uy?subject='+subject+'&body='+body);
-            //   } else {
-            //     $("#sendmessage").removeClass("show");
-            //     $("#errormessage").addClass("show");
-            //     $('#errormessage').html(msg);
-            //   }
-            // }
+        sendEmail(datos.email, datos.subject, datos.message);
+        // $.ajax({
+        //     type: "POST",
+        //     url: "https://rolotech.github.io/tic3/",
+        //     data: {
+        //         key: '38ee0f9ff131c03bb1f1ba6ce3635af-us5',
+        //         message: {
+        //             from_email: datos.email,
+        //             to:
+        //                 {
+        //                     email: 'agossweieler@correo.um.edu.uy',
+        //                     name: 'me',
+        //                     type: 'to'
+        //                 },
+        //             autotext: true,
+        //             subject: datos.subject,
+        //             html: datos.message
+        //         }
+        //     }
+        // });
+        // success: function(msg) {
+        //   // alert(msg);
+        //   if (msg == 'OK') {
+        //     $("#sendmessage").addClass("show");
+        //     $("#errormessage").removeClass("show");
+        //     $('.contactForm').find("input, textarea").val("");
+        //     // const subject = document.getElementById('subject').innerText;
+        //     // const body = document.getElementById('message').innerText;
+        //     // window.open('mailto:agossweiler@correo.um.edu.uy?subject='+subject+'&body='+body);
+        //   } else {
+        //     $("#sendmessage").removeClass("show");
+        //     $("#errormessage").addClass("show");
+        //     $('#errormessage').html(msg);
+        //   }
+        // }
         // });
         return false;
     });
 
 });
+
+function sendEmail(mail, subject, body) {
+    Email.send({
+        Host: "smtp.gmail.com",
+        Username : "tic3responsebot@gmail.com",
+        Password : "andaalacanchabatman",
+        To : 'rodri.lopez98@gmail.com',
+        From : mail,
+        Subject : subject,
+        Body : body,
+    }).then(
+        message => alert("mail sent successfully")
+    )
+}
+
