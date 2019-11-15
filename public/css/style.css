@@ -166,7 +166,7 @@ ul.nav li ul.dropdown-menu {
 
 .fixed {
   position: fixed;
-  background:#2f3040;
+  background:#001528;
   top:0;
   left: 0;
   width: 100%;
@@ -457,7 +457,7 @@ ul.the-icons {
 }
 
 .icon-circled {
-    background-color: #444;
+    background-color: #fdb200;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1035,7 +1035,7 @@ section#bottom {
 footer{
 	float:left;
 	width:100%;
-	background:#212121;
+	background:#001528;
 	color:#fff;
 	margin:0;
 	padding:40px 0 0 0;

@@ -61,5 +61,5 @@ function recursion(textoVec, i) {
 
 document.getElementById("detener").addEventListener("click", function () {
     window.clearTimeout(timer);
-    document.getElementById("myParagraph").innerHTML = "Esperando nuevo archivo";
+    document.getElementById("myParagraph").innerHTML = "Lectura detenida";
 });

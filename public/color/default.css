@@ -1,16 +1,16 @@
 ::-moz-selection {
-  background: #ef6603;
+  background: #fdb200;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #ef6603;
+  background: #fdb200;
   color: #fff;
   text-shadow: none;
 }
 
 a {
-  color: #ef6603;
+  color: #fdb200;
   text-decoration: none;
 }
 
@@ -20,11 +20,11 @@ a:hover {
 }
 
 .tweet a {
-	color:#ef6603;
+	color: #fdb200;
 }
 
 .tweet .tweet_time a:hover i {
-	color:#ef6603;
+	color: #fdb200;
 }
 
 .folio-caption .folio-link a:hover .icon-rounded {
@@ -36,32 +36,32 @@ a:hover {
 .icon-square:hover,
 .icon-rounded:hover,
 .icon-circled:hover {
-    background-color: #ef6603;
+    background-color: #fdb200;
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #ef6603;
+    background-color: #fdb200;
 }
 
 
 
 
 .navbar .nav > li > a:hover {
-  color: #ef6603;
+  color: #fdb200;
 }
 
 
 ul.nav li.current {
-  background: #ef6603;
+  background: #fdb200;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
-	background: #ef6603;
+	background: #fdb200;
 }
 
 input:focus, textarea:focus {
-	border: 1px solid #ef6603;
+	border: 1px solid #fdb200;
 }
 textarea:focus,
 input[type="text"]:focus,
@@ -79,10 +79,10 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: #ef6603;
+  border-color: #fdb200;
 }
 .letter-container h2 span:hover{
-	color: #ef6603;
+	color: #fdb200;
 }
 
 
@@ -90,18 +90,18 @@ input[type="color"]:focus,
 
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover {
-	border-top:4px solid #ef6603;
+	border-top:4px solid #fdb200;
 }
 .nav-tabs > .active > a {
-	color: #ef6603;
+	color: #fdb200;
 }
 
 /* accordion */
 .accordion-heading a:hover {
-	color: #ef6603;
+	color: #fdb200;
 }
 .accordion-heading .active{
-	color: #ef6603;
+	color: #fdb200;
 }
 
 .accordion-inner {
@@ -111,25 +111,25 @@ input[type="color"]:focus,
 /* sequence slider */
 #sequence-theme .next,
 #sequence-theme .prev {
-	background:#ef6603;
+	background: #fdb200;
 }
 
 .special-box, .box-color{
-	background: #ef6603;
+	background: #fdb200;
 }
 
 .special-box:after{
-	border-color:#000 #ef6603;
+	border-color:#000 #fdb200;
 }
 
 
 /* portfolio */
 
 .thumb-wrapp{
-	background:#ef6603;
+	background: #fdb200;
 }
 .folio-caption{
-	background:#ef6603;
+	background: #fdb200;
 }
 
 iframe.contact-map{
