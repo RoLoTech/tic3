@@ -850,9 +850,9 @@ button.close {
 .btn-primary {
     color: #ffffff;
     text-shadow: none;
-    background: #00a1f1;
+    background: #001528;
     border-color: none;
-    *background-color: #00a1f1;
+    *background-color: #001528;
     /* Darken IE7 buttons by default so they stand out more given they won't have borders */
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
