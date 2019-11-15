@@ -1924,3 +1924,37 @@ a.thumbnail:hover {
     -moz-border-radius: 0;
     border-radius: 0;
 }
+
+#texto_entrada {
+    height:auto;
+    max-width:600px;
+    color:#000;
+    font-weight:400;
+    font-size:20px;
+    font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+    width:100%;
+    background:#fff;
+    border-radius:3px;
+    line-height:2em;
+    border:none;
+    box-shadow:0 0 5px 1px rgba(0,0,0,0.1);
+    padding:30px;
+    -webkit-transition: height 2s ease;
+    -moz-transition: height 2s ease;
+    -ms-transition: height 2s ease;
+    -o-transition: height 2s ease;
+    transition: height 2s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenedor_botones{
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*#convertir, #detener{*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/

@@ -8906,7 +8906,7 @@ var PDFDocumentLoadingTask = (function PDFDocumentLoadingTaskClosure() {
      * Registers callbacks to indicate the document loading completion.
      *
      * @param {function} onFulfilled The callback for the loading completion.
-     * @param {function} onRejected The callback for the loading failure.
+     * @param {boolean} onRejected The callback for the loading failure.
      * @return {Promise} A promise that is resolved after the onFulfilled or
      *                   onRejected callback.
      */

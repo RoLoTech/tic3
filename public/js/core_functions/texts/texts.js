@@ -75,6 +75,6 @@ function ejemploRecursion(textoVec, p) {
         p++;
         texto_ejemplo = window.setTimeout(function () {
             ejemploRecursion(textoVec, p);
-        }, 125);
+        }, 300);
     }
 }
