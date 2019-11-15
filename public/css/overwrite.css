@@ -694,9 +694,9 @@ button.close {
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
-    color: #333333;
+    color: #ffffff;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-    background-color: #efefef;
+    background-color: #004c94;
     background-image: none;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     *background-color: #dddddd;
@@ -850,9 +850,9 @@ button.close {
 .btn-primary {
     color: #ffffff;
     text-shadow: none;
-    background: #001528;
+    background: #004c94;
     border-color: none;
-    *background-color: #001528;
+    *background-color: #004c94;
     /* Darken IE7 buttons by default so they stand out more given they won't have borders */
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
@@ -1255,7 +1255,7 @@ input[type="submit"].btn.btn-mini {
 
 .progress-success.progress-striped .bar,
 .progress-striped .bar-success {
-    background-color: #7cbb00;
+    background-color: #004c94;
     background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -1277,7 +1277,7 @@ input[type="submit"].btn.btn-mini {
 
 .progress-danger.progress-striped .bar,
 .progress-striped .bar-danger {
-    background-color: #ce1a02;
+    background-color: #fdb200;
     background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -1299,7 +1299,7 @@ input[type="submit"].btn.btn-mini {
 
 .progress-info.progress-striped .bar,
 .progress-striped .bar-info {
-    background-color: #60c1de;
+    background-color: #fdb200;
     background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -1322,7 +1322,7 @@ input[type="submit"].btn.btn-mini {
 
 .progress-warning.progress-striped .bar,
 .progress-striped .bar-warning {
-    background-color: #fdda18;
+    background-color: #004c94;
     background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
