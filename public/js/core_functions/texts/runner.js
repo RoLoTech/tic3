@@ -55,7 +55,7 @@ function recursion(textoVec, i) {
         i++;
         timer = window.setTimeout(function () {
             recursion(textoVec, i);
-        }, 300);
+        }, 250);
     }
 }
 
