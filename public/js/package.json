@@ -4,7 +4,7 @@
   "dependencies": {
     "event-emitter": "^0.3.5",
     "path-webpack": "0.0.3",
-    "tesseract.js": "^1.0.19",
+    "tesseract.js": "^4.0.2",
     "url-polyfill": "^1.1.7"
   }
 }
